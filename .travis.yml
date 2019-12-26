@@ -21,4 +21,4 @@ notifications:
       - jeongwan.hong92@gmail.com
 
 before_install:
-  - chomod +x gradlew
+  - chmod +x gradlew
