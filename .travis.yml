@@ -1,3 +1,6 @@
+before_install:
+  - chmod +x gradlew
+
 language: java
 jdk:
   - openjdk8
@@ -19,6 +22,3 @@ notifications:
   email:
     recipients:
       - jeongwan.hong92@gmail.com
-
-before_install:
-  - chmod +x gradlew
